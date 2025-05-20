@@ -34,8 +34,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='w-full flex justify-center bg-blue-950 text-white  main flex-col items-center gap-0 bg-blend-color '>
-      <div className="w-[90%] p-6 md:p-12 max-w-7xl flex flex-col md:flex-row md:justify-between items-center container rounded-[10px] mx-auto">
+    <div className='w-[100vw] flex justify-center bg-blue-950 text-white  main flex-col items-center gap-0 bg-blend-color '>
+      <div className="w-[90%] p-6 md:p-[10rem] max-w-7xl flex flex-col md:flex-row md:justify-between items-center container rounded-[10px] mx-auto">
   
   {/* Left part */}
   <div className="md:w-[45%] flex flex-col gap-6 text-start">
@@ -59,7 +59,7 @@ const Home = () => {
     <img
       src="https://cdn3d.iconscout.com/3d/premium/thumb/robot-research-3d-icon-download-in-png-blend-fbx-gltf-file-formats--device-ai-technology-activity-pack-science-icons-7746770.png"
       alt="AI Illustration"
-      className="w-[280px] md:w-[380px] rounded-xl model1 relative z-10"
+      className="w-[280px] md:w-[480px] rounded-xl model1 relative z-10"
       onError={(e) => { e.target.style.display = 'none'; }}
     />
     
