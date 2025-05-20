@@ -1,0 +1,56 @@
+.border{
+    border : 2px solid #2b84ea;
+    
+}
+.bg{
+   background-color: #4694ee ;
+   
+}
+/* Editor container */
+.editor-container {
+  display: flex;
+  width: 100%;
+  border: 2px solid #4694ee;
+  border-radius: 5px;
+  background-color: transparent; /* VS Code-like background */
+  color:white; /* VS Code-like text color */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  overflow: hidden;
+  height: auto;
+  min-height: 300px;
+  
+}
+
+/* Line numbers */
+.line-numbers {
+  background-color:transparent; /* Darker background for line numbers */
+  color: white; /* Gray color for line numbers */
+  text-align: right;
+  padding: 10px 5px;
+  user-select: none;
+  
+  line-height: 1.5;
+}
+
+/* Line number styling */
+.line-number {
+  line-height: 1.5;
+}
+
+/* Textarea */
+.code-textarea {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  outline: none;
+  resize: none;
+  line-height: 1.5;
+  overflow: auto;
+  white-space: pre;
+  height: auto;
+  min-height: 300px;
+  
+}
